@@ -1,13 +1,13 @@
 /* Layout Grid Styles */
-    container {
+    .container {
         margin: 1rem auto;
-        max-width: 1200px;
+        max-width: 800px;
     }
 
 /* Assets */
    
 img {
-    width: 200px;
+    width: 70%;
 }
 
 /* Hero styles */
