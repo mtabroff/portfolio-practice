@@ -3,6 +3,13 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+html {
+  font-family: 'Work Sans', sans-serif;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
