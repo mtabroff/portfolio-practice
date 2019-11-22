@@ -8,8 +8,11 @@ const HandyPage = () => (
     <Layout>
       <SEO title="Handy Case Study" />
       <Link to="/">Return to home</Link>
+
+<main-container>
       <h1>Designing for Growth</h1>
-      <div>
+ 
+      <div class= 'cover-photo'>
       <img src={require('../handy-assets/handy-cover.png')} alt="Handy Case Study" />
     </div>
 
@@ -41,7 +44,8 @@ const HandyPage = () => (
             </div>
 
        {/* Research 01: Data Drop-off */}
-        <caption>Understanding Drop off</caption>
+        <div className="caption">Understanding Drop off</div>
+
         <p>As you can imagine, most first-time customers who land on the Payment page bounce (especially on mobile web). This could be for various reasons, like wanting to shop around for a better deal or not having a credit card on hand.</p>
         <p>Identifying drop off points and contextualizing the data with qualitative user research (e.g. customer calls)  helped us identify opportunities to engage customers more effectively through each phase of the purchase funnel.</p>
           
@@ -123,8 +127,12 @@ const HandyPage = () => (
       {/* ---- insert 3 A/B UI tests*/}
 
       {/* ---- insert Purple/Blue background divider*/}
+      <div style={{background: '4252D8'}}/>
+      
       <h3>What if customers didn’t have to pay?</h3>
         <p>Simple UI changes can only move the needle so much. What if we could create a shopping experience where customers could reserve a cleaning appointment without paying? </p>
+   
+
 
       <caption>New User Flow</caption>
       <h4>Book Now, Pay Later</h4>
@@ -183,7 +191,8 @@ const HandyPage = () => (
 
         <caption>Closing Thoughts</caption>
           <p>Designing for growth is really a psychology game. We were challenged to put ourselves in the shoes of the customer and come up with creative ways to influence their purchase behavior. However, to truly impact change we would need to solve the chicken-and-egg problem: create a system where professionals on the platform are incentivized to deliver the best cleaning experience for customers, which, in turn, would translate to more happy customers and more bookings.</p>
-                  
+  
+  </main-container>                 
     </Layout>
   )
   
