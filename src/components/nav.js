@@ -5,9 +5,8 @@ import "./systems.css"
 function Nav() {
     return (
         <header>
-            <h3>Melanie's House</h3>
             <ul>
-                <Link to="/">Home</Link>
+                <Link to="/">Case Studies</Link>
                 <Link to="/about/">About</Link>
                 <Link to="/contact/">Resume</Link>
             </ul>
